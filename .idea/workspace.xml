@@ -26,8 +26,8 @@
       <file leaf-file-name="BaseSnake.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BaseSnake.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.09042553">
-              <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.572695">
+              <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
               <folding>
                 <element signature="e#131#149#0" expanded="true" />
               </folding>
@@ -38,9 +38,11 @@
       <file leaf-file-name="Helpers.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Helpers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.6296296">
-              <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
-              <folding />
+            <state vertical-scroll-proportion="-12.703704">
+              <caret line="99" column="39" selection-start-line="99" selection-start-column="39" selection-end-line="99" selection-end-column="39" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -64,8 +66,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Constants.py" />
-        <option value="$PROJECT_DIR$/BaseSnake.py" />
         <option value="$PROJECT_DIR$/timer.py" />
+        <option value="$PROJECT_DIR$/BaseSnake.py" />
         <option value="$PROJECT_DIR$/Helpers.py" />
       </list>
     </option>
@@ -272,7 +274,19 @@
       <option name="project" value="LOCAL" />
       <updated>1444413617842</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="changed colors">
+      <created>1444413627594</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1444413627594</updated>
+    </task>
+    <task id="LOCAL-00003" summary="changed colors">
+      <created>1444413669255</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1444413669255</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -334,7 +348,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="99" column="33" selection-start-line="99" selection-start-column="30" selection-end-line="99" selection-end-column="33" />
-          <folding />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -386,16 +402,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Helpers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.6296296">
-          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
-          <folding />
+        <state vertical-scroll-proportion="-12.703704">
+          <caret line="99" column="39" selection-start-line="99" selection-start-column="39" selection-end-line="99" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BaseSnake.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09042553">
-          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.572695">
+          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
           <folding>
             <element signature="e#131#149#0" expanded="true" />
           </folding>
