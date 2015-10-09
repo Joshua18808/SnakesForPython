@@ -86,7 +86,7 @@ def moveBody(toRect, fromRect):
 # Creates a random rectangle.
 def randomRect():
     return Rect(randint(1, xBound - 2) * blockSize, randint(1, yBound - 2) * blockSize, blockSize, blockSize)
-red = random.randint(0,255)
+
 # Draw the screen depending on what happens.
 def draw(oldPiece, head, body, appleRect, hasEaten, screen):
 
