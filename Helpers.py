@@ -1,7 +1,9 @@
 import pygame, sys
 from random import randint
+
 from pygame.locals import *
 from Constants import *
+
 
 # Python Lesssson #1: Introduction to Python
 # Snake is one of the earliest video games in video game history.
@@ -26,7 +28,7 @@ from Constants import *
 
 
 walls = []
-
+score = 0
 
 def initWalls(screen):
     for i in range(0, xBound):
@@ -38,7 +40,7 @@ def initWalls(screen):
 
     # Draw the walls
     for wall in walls:
-        pygame.draw.rect(screen, (0, 0, 255), wall)
+        pygame.draw.rect(screen, (204, 204, 255), wall)
 
 
 # Useful debug method. Text is a string, rect is a Rect.
@@ -49,8 +51,9 @@ def printRect(text, rect):
 def quitGame():
     print "Game over!"
     # How can we measure the player's score?
-    print "Your score is: "
+    print "Your score is: ",score,"."
     sys.exit(0)
+
 
 # Code to move the head.
 def moveHead(headRect, dir):
@@ -83,24 +86,21 @@ def moveBody(toRect, fromRect):
 # Creates a random rectangle.
 def randomRect():
     return Rect(randint(1, xBound - 2) * blockSize, randint(1, yBound - 2) * blockSize, blockSize, blockSize)
-
+red = random.randint(0,255)
 # Draw the screen depending on what happens.
 def draw(oldPiece, head, body, appleRect, hasEaten, screen):
 
 
     # Draw the head.
-    pygame.draw.rect(screen, (0, 255, 0), head)
+    pygame.draw.rect(screen, (171, 0, 255), head)
     # Draw the body.
     for block in body:
-        pygame.draw.rect(screen, (0, 155, 0), block)
+        pygame.draw.rect(screen, (142, 0, 213), block)
+    # Draw the apple.
+    pygame.draw.rect(screen, (0, 255, 0), appleRect)
+
 
     # If we have not eaten, we need to clear the old rectangle.
     if (not hasEaten):
         pygame.draw.rect(screen, (0, 0, 0), oldPiece)
-
-    # Draw the apple.
-    pygame.draw.rect(screen, (255, 0, 0), appleRect)
-
-
-
 

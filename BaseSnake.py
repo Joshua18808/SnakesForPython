@@ -79,6 +79,10 @@ while True:
     if(hasHitWall):
         quitGame()
 
+    if (hasHitBody):
+        quitGame()
+    if hasEaten:
+        score = score + 1
     # We need to check if the head has collided with the body!
     # How can we do this?
     # (hint- it should be very similar to the line above!)
